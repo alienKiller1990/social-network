@@ -11,6 +11,9 @@ const Nav = () => {
                 <a href="#">Messages</a>
             </div>
             <div className={classes.item}>
+                <a href="#">Friends</a>
+            </div>
+            <div className={classes.item}>
                 <a href="#">Settings</a>
             </div>
 
