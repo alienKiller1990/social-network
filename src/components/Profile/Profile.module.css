@@ -1,0 +1,13 @@
+.profile {
+    grid-area: c;
+    background-image: linear-gradient(to bottom, rgb(58, 65, 133), rgb(55, 62, 125), rgb(53, 60, 117), rgb(50, 57, 108), rgb(47, 54, 100), rgb(44, 52, 92), rgb(42, 49, 84), rgb(39, 47, 76), rgb(36, 44, 68), rgb(33, 41, 59), rgb(31, 39, 51), rgb(28, 36, 43));
+    box-shadow: 19px 20px 18px 4px rgb(0 0 0 / 48%);
+
+}
+
+img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+

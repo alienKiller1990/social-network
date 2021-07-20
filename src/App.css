@@ -1,0 +1,29 @@
+ul li {
+  list-style-type: georgian;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 19px;
+}
+
+.app-wrapper {
+  display: grid;
+  grid-template-areas: "h h" "n c";
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 2fr 10fr;
+  grid-gap: 15px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px;
+  /* box-shadow: 19px 20px 18px 4px rgb(0 0 0 / 48%); */
+  /* background-image: linear-gradient(to bottom, rgb(54, 56, 82), rgb(51, 54, 78), rgb(49, 52, 74), rgb(46, 49, 70), rgb(43, 47, 66), rgb(41, 45, 62), rgb(38, 43, 58), rgb(36, 41, 54), rgb(33, 39, 50), rgb(30, 36, 46), rgb(28, 34, 42), rgb(25, 32, 38)); */
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  height: 100vh;
+  background-image: linear-gradient(to bottom, rgb(26, 19, 18), rgb(24, 18, 17), rgb(21, 17, 17), rgb(19, 15, 16), rgb(17, 14, 15), rgb(15, 13, 14), rgb(12, 12, 14), rgb(10, 11, 13), rgb(8, 10, 12), rgb(6, 8, 11), rgb(3, 7, 11), rgb(1, 6, 10));
+
+}

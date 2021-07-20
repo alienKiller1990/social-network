@@ -1,0 +1,16 @@
+
+
+.nav {
+  grid-area: n;
+  background-image: linear-gradient(to bottom, rgb(142, 146, 191), rgb(135, 141, 183), rgb(129, 135, 175), rgb(122, 130, 168), rgb(115, 125, 160), rgb(109, 120, 152), rgb(102, 114, 144), rgb(96, 109, 136), rgb(89, 104, 128), rgb(82, 99, 121), rgb(76, 93, 113), rgb(69, 88, 105)); 
+  box-shadow: 19px 20px 18px 4px rgb(0 0 0 / 48%);
+
+}
+
+.item {
+    color: #fff;
+}
+
+.item.active {
+  color: gold;
+}
