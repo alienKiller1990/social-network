@@ -5,7 +5,6 @@ import img_i from './../../../images/I.jpg'
 
 
 const Posts = (props) => {
-    console.log(props.message)
     return (
 
 
