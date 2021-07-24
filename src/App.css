@@ -33,6 +33,6 @@ a {
 
 body {
   min-height: 100vh;
-  background-image: linear-gradient(to bottom, rgb(26, 19, 18), rgb(24, 18, 17), rgb(21, 17, 17), rgb(19, 15, 16), rgb(17, 14, 15), rgb(15, 13, 14), rgb(12, 12, 14), rgb(10, 11, 13), rgb(8, 10, 12), rgb(6, 8, 11), rgb(3, 7, 11), rgb(1, 6, 10));
+  background-image: linear-gradient(to top right, rgb(77, 81, 125), rgb(75, 77, 118), rgb(73, 73, 111), rgb(71, 69, 104), rgb(69, 65, 97), rgb(67, 61, 90), rgb(66, 56, 83), rgb(64, 52, 76), rgb(62, 48, 69), rgb(60, 44, 62), rgb(58, 40, 55), rgb(56, 36, 48));
   background-repeat: no-repeat;
 }
