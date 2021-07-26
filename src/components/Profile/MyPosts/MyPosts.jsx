@@ -1,4 +1,5 @@
 
+import React from 'react';
 import s from './MyPosts.module.css';
 import Posts from './Post/Posts';
 
@@ -6,16 +7,16 @@ import Posts from './Post/Posts';
 
 const MyPosts = (props) => {
 
-    let posts = [
-        { id: 1, message: 'Hi, how are you?', likesCount: 0 },
-        { id: 2, message: "It's my first post!", likesCount: 9 },
-        { id: 3, message: "It's cool", likesCount: 34 },
-
-    ];
-
-    let postsElements = posts.map(p => {
+    let postsElements = props.posts.map(p => {
         return <Posts message={p.message} likesCount={p.likesCount} />
     });
+
+    let newPostElement = React.createRef()
+
+    let addPost = () => {
+        let text = newPostElement.current.value;
+        props.addPost(text)
+    }
 
     return (
 
@@ -23,10 +24,10 @@ const MyPosts = (props) => {
             <h3>My Posts</h3>
             <div>
                 <div>
-                    <textarea></textarea>
+                    <textarea ref={newPostElement}></textarea>
                 </div>
                 <div>
-                    <button>Send</button>
+                    <button onClick={ addPost }>Send</button>
                 </div>
             </div>
             <div className={s.posts}>
