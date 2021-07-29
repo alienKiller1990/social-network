@@ -11,6 +11,7 @@ ul li {
   grid-template-columns: 2fr 10fr;
   grid-gap: 15px;
   max-width: 1200px;
+  /* height: 100vh; */
   margin: 0 auto;
   padding: 15px;
   /* box-shadow: 19px 20px 18px 4px rgb(0 0 0 / 48%); */
@@ -18,12 +19,9 @@ ul li {
 }
 
 .app-wrapper-content {
-
-    grid-area: c;
-    background-image: linear-gradient(to bottom, rgb(58, 65, 133), rgb(55, 62, 125), rgb(53, 60, 117), rgb(50, 57, 108), rgb(47, 54, 100), rgb(44, 52, 92), rgb(42, 49, 84), rgb(39, 47, 76), rgb(36, 44, 68), rgb(33, 41, 59), rgb(31, 39, 51), rgb(28, 36, 43));
-    box-shadow: 19px 20px 18px 4px rgb(0 0 0 / 48%);
-
-
+  grid-area: c;
+  background-image: linear-gradient(to bottom, rgb(58, 65, 133), rgb(55, 62, 125), rgb(53, 60, 117), rgb(50, 57, 108), rgb(47, 54, 100), rgb(44, 52, 92), rgb(42, 49, 84), rgb(39, 47, 76), rgb(36, 44, 68), rgb(33, 41, 59), rgb(31, 39, 51), rgb(28, 36, 43));
+  box-shadow: 19px 20px 18px 4px rgb(0 0 0 / 48%);
 }
 
 a {
@@ -35,4 +33,5 @@ body {
   min-height: 100vh;
   background-image: linear-gradient(to top right, rgb(77, 81, 125), rgb(75, 77, 118), rgb(73, 73, 111), rgb(71, 69, 104), rgb(69, 65, 97), rgb(67, 61, 90), rgb(66, 56, 83), rgb(64, 52, 76), rgb(62, 48, 69), rgb(60, 44, 62), rgb(58, 40, 55), rgb(56, 36, 48));
   background-repeat: no-repeat;
+  /* background-size: cover; */
 }
